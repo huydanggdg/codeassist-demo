@@ -19,15 +19,12 @@
 <html>
 <head>
     <title>Conversion Result</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <div class="container">
-        <h1>Result</h1>
-    
-        <p>The number <strong>{{ number }}</strong> is <strong>{{ roman }}</strong> in Roman Numerals.</p>
-    
-        <p><a href="/">Convert another number</a></p>
-    </div>
+    <h1>Result</h1>
+
+    <p>The number {{ number }} is {{ roman }} in Roman Numerals.</p>
+
+    <p><a href="/">Return to home page.</a></p>
 </body>
 </html>

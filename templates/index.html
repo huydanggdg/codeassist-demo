@@ -19,17 +19,14 @@
 <html>
 <head>
     <title>Roman Numerals</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <div class="container">
-        <h1>Roman Numeral Converter</h1>
-    
-        <form action="/convert" method="post">
-            <label for="number">Enter a number to convert:</label>
-            <input type="text" name="number" id="number" required pattern="[0-9]+" title="Please enter a valid number." placeholder="e.g., 2024" />
-            <button>Convert!</button>
-        </form>
-    </div>
+    <h1>Roman Numerals</h1>
+
+    <form action="/convert" method="post">
+        <label for="number">Enter a number: </label>
+        <input type="text" name="number" id="number" required />
+        <button>Convert!</button>
+    </form>
 </body>
 </html>
