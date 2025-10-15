@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "github": {
+      "httpUrl": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "<YOUR_GITHUB_PAT_you will need to have a Personal Access Token (PAT) from Github>"
+      },
+      "timeout": 5000
+    }
+  },
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  },
+  "ui": {
+    "theme": "Default"
+  }
+}
